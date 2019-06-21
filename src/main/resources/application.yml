@@ -1,0 +1,21 @@
+# Default
+spring:
+  application:
+    name: spring-boot-jwt-java7
+  profiles:
+    active: dev
+
+---
+# Development
+spring:
+  profiles: dev
+
+
+
+
+
+
+---
+# Production
+spring:
+  profiles: prod
