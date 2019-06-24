@@ -4,7 +4,6 @@ spring:
     name: spring-boot-jwt-java7
   profiles:
     active: dev
-
 ---
 # Development
 spring:
@@ -19,3 +18,5 @@ spring:
 # Production
 spring:
   profiles: prod
+
+
